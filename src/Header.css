@@ -1,0 +1,22 @@
+.header{
+    
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header ul{
+        display: flex;
+    justify-content: space-around;
+    width: auto;
+    list-style-type: none;
+    width: 200px;
+}
+.header .link{
+    text-decoration: none;
+}
