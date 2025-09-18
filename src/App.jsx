@@ -4,6 +4,7 @@ import About from "./About"
 import { NavLink } from "react-router"
 import { Navbar } from "./Navbar"
 import Contact from "./Contact"
+import PageNotFound from "./PageNotFound"
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path='/*' element={<PageNotFound/>}/>
 
 
 
