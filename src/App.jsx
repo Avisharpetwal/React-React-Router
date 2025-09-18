@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router"
+import { Navigate, Route, Routes } from "react-router"
 import Home from "./Home"
 import About from "./About"
 import { NavLink } from "react-router"
@@ -15,6 +15,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path='/*' element={<PageNotFound/>}/>
+        {/* <Route path="/*" element={<Navigate to="/About"/>}/> */}
 
 
 

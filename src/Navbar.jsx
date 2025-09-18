@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import "./Header.css"
 export function Navbar() {
     return (
@@ -13,18 +13,18 @@ export function Navbar() {
         // </div>
         <div>
             <div className="header">
-                <Link  className="link"><h2>Logo</h2></Link>
+                <NavLink  className="link"><h2>Logo</h2></NavLink>
             
             <div>
                 <ul>
                     <li>
-                        <Link className="link" to='/'>Home</Link>
+                        <NavLink className="link" to='/'>Home</NavLink>
                     </li>
                     <li>
-                        <Link className="link" to='/about'>About</Link>
+                        <NavLink className="link" to='/about'>About</NavLink>
                     </li>
                     <li>
-                        <Link className="link" to="/contact">Contact</Link>
+                        <NavLink className="link" to="/contact">Contact</NavLink>
                     </li>
                 </ul>
                 </div>

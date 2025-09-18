@@ -20,3 +20,8 @@ body{
 .header .link{
     text-decoration: none;
 }
+
+.active{
+    font-weight:800;
+    color: black;
+}
